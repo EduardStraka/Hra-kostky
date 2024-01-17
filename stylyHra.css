@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ 
+}
+
+/* All page*/
+
+
+
+
+  
+
+}
+
+/*  Playground */
+.playground {
+    width: 80%;
+    height: 80%;
+    border: 4px solid #d1cbb4;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    border-radius: 40px;
+
+}
+
+  
+/*  Total score*/
+.totalScore {
+    font-size: 30px;
+    color:black;
+    font-weight: bold;
+    width: 201px;
+    text-align: center;
+}
+.totalScore p:nth-child(2){
+    font-size: 40px;
+    text-align: center;
+   
+}
+.totalScore0{
+    top:17%;
+    left:10%;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.totalScore1{
+    top:17%;
+    right:10%;
+    position: absolute;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+
+/*Current score*/
+.currentScore{
+    width: 189px;
+    height:180px;
+    background: blue;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.currentScore p {
+    text-align: center;
+    font-size: 30px;
+    color: white;
+    padding-top: 10px;
+    font-weight: bold;
+ }
+.currentScore p:nth-child(2){
+    font-size: 80px;
+    
+}
+.currentScore0{
+    position: absolute;
+    top: 50%;
+    left:10%;
+    width: 201px;
+}
+.currentScore1{
+    position: absolute;
+    top: 50%;
+    right:10%;
+    width: 201px;
+}
+/* Middle text*/
+.middleText{
+    position: absolute;
+   
+    left:43%;
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    top: 55%;
+   
+}
+.btn{
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: beige;
+}
+.btn:hover{
+    border: 2px solid black;
+    background: darkred;
+}
+
+/* Dice*/
+.dice {
+    position: absolute;
+    top:10%;
+    left: 45%;
+}
+
+
+ /* Active player*/
+.active{
+    color: white;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background: darkred;
+    width: 
+}
